@@ -1,0 +1,25 @@
+.stepper-div {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    border-top: 1px solid #DEC4CE;
+    border-bottom: 1px solid #DEC4CE;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.step-div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+}
+
+.elipse-div {
+    position: absolute;
+    bottom: -10px;
+    margin-left: 15px;
+}

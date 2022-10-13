@@ -1,0 +1,116 @@
+.ident-div {
+    width: 100%;
+}
+
+.ident-div input, .modal input, .react-tel-input .form-control {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    color: rgba(39, 43, 43, 0.5);
+    width: 336px;
+    height: 54px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #DDDDEB;
+    border-radius: 8px;
+    padding: 0 52px;
+}
+
+.modal input {
+    font-size: 20px;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #E7075B;
+}
+
+.ident-div label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #9A9FA5;
+}
+
+.ident-div button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 250px;
+    background: linear-gradient(89.87deg, #F17CAF 2.08%, #E7075B 98.27%);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.btn-verify {
+    display: flex;
+    justify-content: space-evenly;
+    background: #FFFFFF;
+}
+
+.btn-verify svg{
+    font-size: 25px;
+    color: rgb(93, 242, 93);
+}
+
+.contactFriend {
+    align-items: center;
+    justify-content: center;
+    width: 752px;
+    height: 130px;
+    border: 1px solid #DDDDEB;
+    border-radius: 4px;
+}
+
+.contactFriend-p {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9A9FA5;
+}
+
+.action_buton {
+    margin-top: 100px;
+    justify-content: flex-end;
+}
+
+.action_buton button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 8px;
+    width: 186px;
+    height: 48px;
+    border-radius: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;    
+    letter-spacing: -0.01em;
+    background: #FCFCFC;
+    border: 1px solid #F17CAF;
+    color: #F17CAF;
+}
+
+.action_buton button:hover {
+    background: linear-gradient(89.87deg, #F17CAF 2.08%, #E7075B 98.27%);    
+    color: #FCFCFC;
+}

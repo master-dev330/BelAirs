@@ -1,0 +1,78 @@
+.carousel-inner img{
+    width: 100%;
+}
+
+.carousel-caption {
+    bottom: 9.25rem !important;
+}
+
+.carousel-caption h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 114.648px;
+    line-height: 124.35%;
+    text-align: center;
+    background: linear-gradient(89.87deg, #F17CAF 2.08%, #E7075B 98.27%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    text-shadow: 0px 5px 24px rgba(0, 0, 0, 0.35);
+}
+
+.carousel-caption p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34.1479px;
+    line-height: 105%;
+    background: linear-gradient(89.87deg, #F17CAF 2.08%, #E7075B 98.27%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0px 5px 24px rgba(0, 0, 0, 0.35);
+}
+
+.carousel-caption small {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.7653px;
+    line-height: 34px;
+    color: #FFF8F8;
+}
+
+@media (max-width: 1240px) {
+    .carousel-caption {
+        bottom: 5.25rem !important;
+    }
+    .carousel-caption h3 {
+        font-size: 64.648px;
+    }
+
+    .carousel-caption p {
+        font-size: 20.648px;
+    }
+
+    .carousel-caption small {
+        font-size: 15.648px;
+    }
+}
+
+@media (max-width: 900px) {
+    .carousel-caption {
+        bottom: 3.25rem !important;
+    }
+    .carousel-caption h3 {
+        font-size: 50.648px;
+    }
+
+    .carousel-caption p {
+        font-size: 15.648px;
+    }
+
+    .carousel-caption small {
+        font-size: 10.648px;
+    }
+}

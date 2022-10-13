@@ -1,0 +1,181 @@
+.tarif-div {
+    width: 100%;
+}
+
+.tarif-section {
+    position: relative;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tarif-section form {
+    padding: 5px;
+    gap: 10px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDEB;
+    border-radius: 10px;
+}
+
+.locker_stock {
+    font-size: 12px;
+    background: #119A36;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #FFF8F8;
+}
+
+.stock-pink-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+    background: linear-gradient(89.87deg, #F17CAF 2.08%, #E7075B 98.27%);
+    border-radius: 10px;
+}
+
+.locker-details {
+    width: 100%;
+    background: #FFF8F8;
+    border: 1px solid #DDDDEB;
+    border-radius: 10px;
+}
+
+.locker-type-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.text-white {
+    font-weight: 100;
+}
+
+.tf {
+    text-align: center;
+    font-size: 12px;
+}
+.tarif-div {
+    gap: 100px;
+    align-items: flex-end;
+}
+
+.tarif-div p {
+    padding: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    /* or 121% */
+    text-align: center;
+    font-size: 10px;
+}
+
+.locker-type-p {
+    font-size: 18px !important;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 7px;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #FFFFFF;
+}
+
+.form-check-label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #47393E;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DDDDEB;
+    border-radius: 4px;
+}
+
+.form-check-input[type=checkbox]:checked {
+    background-color:  #E7075B;
+    border-color: #E7075B;
+    border-radius: 6px;
+}
+
+.nouveau-badge {
+    background: #66B7FF;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 2px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.empty-badge{
+    margin-top: 15px;
+    padding: 10px 0;
+}
+
+.tcardre {
+    z-index: -1;
+    position: absolute;
+    width: 82%;
+    height: 420px;
+    border: 1px solid #DDDDEB;
+    border-radius: 10px;
+}
+
+.tarif-detail {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: flex-end;
+    gap: 25px;
+    padding: 10px;
+}
+
+.action_buton {
+    gap: 20px;
+}
+
+.action_buton button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 8px;
+    width: 186px;
+    height: 48px;
+    border-radius: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;    
+    letter-spacing: -0.01em;
+    background: #FCFCFC;
+    border: 1px solid #F17CAF;
+    color: #F17CAF;
+}
+
+.action_buton button:hover {
+    background: linear-gradient(89.87deg, #F17CAF 2.08%, #E7075B 98.27%);    
+    color: #FCFCFC;
+}

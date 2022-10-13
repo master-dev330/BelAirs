@@ -1,0 +1,35 @@
+h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34.1479px;
+    line-height: 105%;
+    background: linear-gradient(89.87deg, #F17CAF 2.08%, #E7075B 98.27%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text
+}
+
+.event_card {
+    margin-bottom: 40px;
+}
+
+.event_group_title {
+    gap: 15px;
+}
+.event_group_title  svg{
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    fill: #F17CAF;
+    font-size: 40px;
+    border: .5px solid #E7075B;
+    border-radius: 4px;
+}
+
+.event_group_content {
+    padding: 20px 0;
+    gap: 43px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

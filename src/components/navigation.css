@@ -1,0 +1,92 @@
+.logo {
+    background-color: #1E1E1E;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+nav {
+    margin: 13px 0;
+}
+.navbar {
+    height: 54px;
+}
+
+nav ul{
+    font-weight: 600;
+    font-size: 14px;
+    list-style: none;
+    color: #000000;
+    gap: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    text-transform: uppercase;
+}
+
+.social-icon {
+    gap: 10px !important;
+    color: #9A9FA5;
+}
+
+.shopingCard {
+    font-size: 30px;
+    color: #64748B;
+}
+.humberger {
+    display: none;
+}
+
+@media (max-width: 1240px) {
+    .container {
+        position: relative;
+    }
+
+    .humberger {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .showMenu {
+        transition: all 0.5s ease;
+        display: flex;
+        z-index: 100;
+        background: #000000;
+        color: white;
+        position: absolute;
+        width: auto;
+        top: 80px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 10px;
+        height: auto;
+        padding: 10px 20px;  
+    }
+    .navLink {
+        color: white;
+        z-index: 200;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .humberger {
+        border: none;
+        background: none;
+        width: auto;
+    }
+    .humberger svg {
+        color: #000000;
+        font-size: 40px;
+    }
+  }

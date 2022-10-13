@@ -1,0 +1,33 @@
+button {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.6803px;
+    line-height: 16px;
+    color: #000000;
+    padding: 15px 39px;
+    gap: 10px;
+    background: linear-gradient(89.87deg, #F17CAF 2.08%, #E7075B 98.27%);
+    backdrop-filter: blur(4px);
+    border-radius: 4px;
+    width: 100%;
+}
+
+.event_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 558px;
+}
+
+.event_description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+    padding: 15px 5px;
+}

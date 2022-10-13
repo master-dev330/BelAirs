@@ -1,0 +1,21 @@
+.recap-div {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.sub-recap-div {
+    gap: 84px;
+}
+
+.recap-info {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 165%;
+    letter-spacing: 0.005em;
+    color: #677489;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
